@@ -16,7 +16,7 @@ import {motion} from 'framer-motion';
 
 export function TicketCard(){
     const logoVariant = {
-        hidden: { x:"50vw", y:"200px", scale:2},
+        hidden: { x:"50vw", y:"-200px", scale:2},
         visible:{
             rotate:720,
             x:0,
@@ -106,10 +106,8 @@ export function TicketCard(){
                 </div>
                 <div className="w-full absolute flex items-center justify-center ">
                     <div className="w-auto h-[190px] z-10 select-none sm:mt-[25px]">
-                        <img className="w-auto h-full select-non scale-[2.7]" src={goldRings} alt="">
-
+                        <img className="w-auto h-full scale-[2.7]" src={goldRings} alt="">
                         </img>
-
                     </div>
                 </div>
                 
