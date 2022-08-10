@@ -116,7 +116,7 @@ export function TicketCard(){
                 </div>
                 
             </div>
-            <motion.div className="flex-[1.4] flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px]">
+            <motion.div className="flex-[1.4] flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[30px]">
                 <h1 className="text-white uppercase ml-[10%] sm:ml-[90px] z-20 text-[115px] sm:text-[120px] font-[500] font-serif">you're</h1>
                 <h1 className="text-white uppercase sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[500] font-serif">invited</h1>
                 <motion.h1 variants={titleVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative left-[90px] sm:left-[100px] text-[50px] sm:text-[50px] font-[500] font-serif">real ones 2nd anniversary</motion.h1>
