@@ -9,7 +9,6 @@ import scivcover from "./images/strancivphoto.jpg";
 import scivvideo from "./images/strandedcivvideo.mp4";
 import morgancover from "./images/morgancover.jpg";
 import morganvideo from "./images/morganvid.mp4";
-import realOnesLogo from "./images/realOnesLogo.PNG"
 import { artistCard } from "./artistCard";
 import {motion} from 'framer-motion';
 
