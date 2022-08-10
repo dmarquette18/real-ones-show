@@ -17,7 +17,7 @@ import {motion} from 'framer-motion';
 
 export function TicketCard(){
     const logoVariant = {
-        hidden: {opacity:"100%", x:"50vw", y:"1200px", scale:2},
+        hidden: {opacity:"0%", x:"50vw", y:"200px", scale:2},
         visible:{
             opacity:"100%",
             rotate:720,
@@ -98,8 +98,8 @@ export function TicketCard(){
         
         <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card w-[500px] flex flex-col sm:m-[0px] m-[30px] sm:w-[800px] sm:h-[4300px] sm:mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.25] relative center-items justify-end">
-                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-600px] sm:left-[-400px] sm:top-[-300px]">
-                    <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} src={realOnesLogo} alt="">
+                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-600px] sm:left-[-400px] sm:top-[-300px] z-20">
+                    <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} src={realOnesLogo} alt="" >
                     </motion.img>
                 </div>
                 <div className="CircleWrapper absolute top-0 left-0 min-w-full min-h-full overflow-hidden  rounded-tr-[75px]">
