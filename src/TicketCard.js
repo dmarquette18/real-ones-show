@@ -17,9 +17,8 @@ import {motion} from 'framer-motion';
 
 export function TicketCard(){
     const logoVariant = {
-        hidden: {opacity:"0%", x:"50vw", y:"200px", scale:2},
+        hidden: { x:"50vw", y:"200px", scale:2},
         visible:{
-            opacity:"100%",
             rotate:720,
             x:0,
             y:20,
