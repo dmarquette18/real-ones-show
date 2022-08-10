@@ -20,7 +20,7 @@ export function TicketCard(){
         visible:{
             rotate:720,
             x:0,
-            y:20,
+            y:30,
             scale:1.1,
             transition:{
                 type:'spring', duration: 3, bounce: 0.2, delay: 1
@@ -94,14 +94,14 @@ export function TicketCard(){
 
     <div className="w-full h-full flex flex-row justify-center relative sm:top-0 top-[0px] sm:place-items-center place-items-start bg-[#1b2c7a] sm:scale-[1] scale-[0.7]">
         
-        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card w-[500px] flex flex-col sm:m-[0px] m-[30px] sm:w-[800px] sm:h-[4300px] sm:mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
-            <div className="w-full flex flex-col flex-[0.25] relative center-items justify-end">
-                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-600px] sm:left-[-400px] sm:top-[-300px] z-20 b-0">
+        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card h-[2800px] flex flex-col sm:m-[0px] m-[30px] sm:w-[800px] sm:h-[4300px] sm:mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
+            <div className="w-full flex flex-col flex-[0.4] relative center-items justify-end">
+                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-800px] sm:left-[-400px] sm:top-[-300px] z-20 b-0">
                     <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} src="https://i.ibb.co/k3qNwy4/real-Ones-Logo.png" alt="" >
                     </motion.img>
                 </div>
-                <div className="CircleWrapper absolute top-0 left-0 min-w-full min-h-full overflow-hidden  rounded-tr-[75px]">
-                    <div className="Circle absolute w-[500px] h-[500px] top-[-4.2em] right-[-10em] z-10 bg-[#ff8d68] rounded-full">
+                <div className="CircleWrapper absolute top-0 right-0 h-[500px] sm:h-[700px] w-full rounded-tr-[75px] justify-center overflow-hidden">
+                    <div className="Circle absolute flex w-[500px] h-[500px] sm:w-[700px] sm:h-[700px] sm:w-[700px] right-[-150px] top-[-150px] sm:h-[700px] z-0 bg-[#ff8d68] rounded-full">
                     </div>
                 </div>
                 <div className="w-full absolute flex items-center justify-center ">
@@ -114,9 +114,9 @@ export function TicketCard(){
                 </div>
                 
             </div>
-            <motion.div className="flex-[1.4] flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[30px]">
+            <motion.div className="flex-[1.4]  w-[600px] sm:w-full flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[90px] h-full">
                 <h1 className="text-white uppercase ml-[10%] sm:ml-[90px] z-20 text-[115px] sm:text-[120px] font-[500] font-serif">you're</h1>
-                <h1 className="text-white uppercase sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[500] font-serif">invited</h1>
+                <h1 className="text-white uppercase ml-[110px] sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[500] font-serif">invited</h1>
                 <motion.h1 variants={titleVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative left-[90px] sm:left-[100px] text-[50px] sm:text-[50px] font-[500] font-serif">real ones 2nd anniversary</motion.h1>
                 <motion.h1 variants={dateVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative right-[30px] sm:right-[200px] z-10 text-[60px] sm:text-[120px] font-[500] font-serif ">Aug 20th</motion.h1>
                 <motion.h1 variants={doorsVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative w-full sm:w-full left-[200px] sm:left-[300px] z-20 text-[40px] sm:text-[100px] font-[10]"> doors open 8</motion.h1>
