@@ -12,9 +12,10 @@ import morganvideo from "./images/morganvid.mp4";
 import HoverVideoPlayer from 'react-hover-video-player';
 import { artistCard } from "./artistCard";
 
+
 export function TicketCard(){
     return(
-        
+
     <div className="flex flex-row justify-center bg-[#1b2c7a]">
         <div className="Card flex flex-col w-[800px] h-[3000px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.3] relative center-items justify-end">
