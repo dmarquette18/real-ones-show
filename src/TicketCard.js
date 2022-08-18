@@ -10,12 +10,8 @@ import scivvideo from "./images/strandedcivvideo.mp4";
 import morgancover from "./images/morgancover.jpg";
 import morganvideo from "./images/morganvid.mp4";
 import realOnesLogo from "./images/realOnesLogo.PNG"
-import HoverVideoPlayer from 'react-hover-video-player';
 import { artistCard } from "./artistCard";
 import {motion} from 'framer-motion';
-import { useEffect } from "react";
-import { useAnimation } from "framer-motion";
-import { useRef } from "react";
 
 
 
@@ -100,7 +96,7 @@ export function TicketCard(){
 
     <div className="flex flex-row justify-center bg-[#1b2c7a]">
         <div className="logowrapper absolute top-[-750px] right-[600px] scale-[0.2] z-20">
-            <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo}>
+            <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo} alt="">
             </motion.img>
         </div>
         <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card flex flex-col w-[800px] h-[4300px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
@@ -112,7 +108,7 @@ export function TicketCard(){
                 </div>
                 <div className="w-full absolute flex items-center justify-center ">
                     <div className="w-auto h-[190px] z-10 select-none mt-[25px]">
-                        <img className="w-auto h-full select-non scale-[2.7]" src={goldRings}>
+                        <img className="w-auto h-full select-non scale-[2.7]" src={goldRings} alt="">
 
                         </img>
 
