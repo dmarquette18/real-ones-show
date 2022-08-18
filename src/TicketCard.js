@@ -17,7 +17,7 @@ import {motion} from 'framer-motion';
 
 export function TicketCard(){
     const logoVariant = {
-        hidden: {opacity:"100%", x:"50vw", y:"1000px", scale:2},
+        hidden: {opacity:"100%", x:"50vw", y:"1200px", scale:2},
         visible:{
             opacity:"100%",
             rotate:720,
@@ -25,7 +25,7 @@ export function TicketCard(){
             y:0,
             scale:1,
             transition:{
-                type:'spring', duration: 3, bounce: 0.2, delay: 2
+                type:'spring', duration: 3, bounce: 0.2, delay: 1
             }
         }
     }
@@ -35,7 +35,7 @@ export function TicketCard(){
             opacity:"100%",
             transition:{
                 duration: 3,
-                delay: 5
+                delay: 1
             }
         }
     }
@@ -95,13 +95,13 @@ export function TicketCard(){
 
 
     <div className="w-full h-full flex flex-row justify-center bg-[#1b2c7a]">
-        <div className="logowrapper fixed top-[-750px] right-[600px] scale-[0.2] z-20">
-            <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo} alt="">
-            </motion.img>
-        </div>
+        
         <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card flex flex-col w-[800px] h-[4300px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.25] relative center-items justify-end">
-                
+                <div className="logowrapper flex absolute scale-[0.5] z-20 w-full left-[-400px] top-[-300px]">
+                    <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo} alt="">
+                    </motion.img>
+                </div>
                 <div className="CircleWrapper absolute top-0 left-0 min-w-full min-h-full overflow-hidden  rounded-tr-[75px]">
                     <div className="Circle absolute w-[500px] h-[500px] top-[-4.2em] right-[-10em] z-10 bg-[#ff8d68] rounded-full">
                     </div>
