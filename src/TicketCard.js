@@ -95,7 +95,7 @@ export function TicketCard(){
 
 
     <div className="flex flex-row justify-center bg-[#1b2c7a]">
-        <div className="logowrapper absolute top-[-750px] right-[600px] scale-[0.2] z-20">
+        <div className="logowrapper absolute top-[0px] right-[600px] scale-[0.2] z-20">
             <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo} alt="">
             </motion.img>
         </div>
