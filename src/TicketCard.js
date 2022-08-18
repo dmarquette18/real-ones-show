@@ -94,7 +94,7 @@ export function TicketCard(){
 
 
 
-    <div className="w-full h-full flex flex-row justify-center bg-[#1b2c7a]">
+    <div className="w-screen h-screen flex flex-row justify-center bg-[#1b2c7a]">
         
         <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card flex flex-col w-[800px] h-[4300px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.25] relative center-items justify-end">
