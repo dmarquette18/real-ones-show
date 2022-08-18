@@ -94,9 +94,9 @@ export function TicketCard(){
 
 
 
-    <div className="w-screen h-full flex flex-row justify-center bg-[#1b2c7a] sm:scale-[1] scale-[0.7]">
+    <div className="w-full h-full flex flex-row justify-center bg-[#1b2c7a] sm:scale-[1] scale-[0.7]">
         
-        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card flex flex-col w-[800px] w-max-screen h-[4300px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
+        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card flex flex-col w-[800px] h-[4300px] mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.25] relative center-items justify-end">
                 <div className="logowrapper flex absolute scale-[0.5] z-20 w-full left-[-400px] top-[-300px]">
                     <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="w-auto h-full" src={realOnesLogo} alt="">
