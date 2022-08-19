@@ -125,7 +125,7 @@ export function TicketCard(){
                     {artistCard(stepdadvideo, stepdadcover, "your stepdad")}
                     
                     {artistCard(goldyvideo, goldycover, "Gayun Cannon")}
-                    {artistCard(scivvideo, scivcover, "Stranded Civilian")}
+                    {artistCard(scivvideo, scivcover, "Stranded Civilians")}
                     {artistCard(morganvideo, morgancover, "Morgan Gold")}
                     {artistCard(avivideo, avicover, "A.N.I")}
                     
