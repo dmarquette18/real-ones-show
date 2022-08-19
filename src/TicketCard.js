@@ -94,9 +94,9 @@ export function TicketCard(){
 
     <div className="w-full h-full flex flex-row justify-center relative sm:top-0 top-[0px] sm:place-items-center place-items-start bg-[#1b2c7a] sm:scale-[1] scale-[0.7]">
         
-        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card h-[2800px] flex flex-col sm:m-[0px] m-[30px] sm:w-[800px] sm:h-[4300px] sm:mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
+        <motion.div variants={cardContainerVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="Card h-[2600px] flex flex-col sm:m-[0px] m-[30px] sm:w-[800px] sm:h-[4300px] sm:mt-[100px] mb-[20px] shadow-2xl  rounded-[75px] bg-[#f2f2d3] white relative cursor-grab">
             <div className="w-full flex flex-col flex-[0.4] relative center-items justify-end">
-                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-800px] sm:left-[-400px] sm:top-[-300px] z-20 b-0">
+                <div className="logowrapper flex absolute scale-[0.5] w-full top-[-650px] sm:left-[-400px] sm:top-[-300px] z-20 b-0">
                     <motion.img variants={logoVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} src="https://i.ibb.co/k3qNwy4/real-Ones-Logo.png" alt="" >
                     </motion.img>
                 </div>
@@ -112,7 +112,7 @@ export function TicketCard(){
                 </div>
                 
             </div>
-            <motion.div className="flex-[1.4]  w-[600px] sm:w-full flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[90px] h-full">
+            <motion.div className="flex-[1.4]  w-[500px] sm:w-full flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[90px] h-full">
                 <h1 className="text-white uppercase ml-[10%] sm:ml-[90px] z-20 text-[115px] sm:text-[120px] font-[500] font-serif">you're</h1>
                 <h1 className="text-white uppercase ml-[110px] sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[500] font-serif">invited</h1>
                 <motion.h1 variants={titleVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative left-[90px] sm:left-[100px] text-[50px] sm:text-[50px] font-[500] font-serif">real ones 2nd anniversary</motion.h1>
