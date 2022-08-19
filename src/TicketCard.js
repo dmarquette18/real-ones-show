@@ -114,7 +114,7 @@ export function TicketCard(){
             </div>
             <motion.div className="flex-[1.4]  w-[500px] sm:w-full flex flex-col bg-gradient-to-b from-transparent to-[#ea0466] rounded-bl-[75px] rounded-br-[75px] font-serif mt-[20px] pb-[90px] h-full">
                 <h1 className="text-white uppercase ml-[10%] sm:ml-[90px] z-20 text-[115px] sm:text-[120px] font-[800] font-serif">you're</h1>
-                <h1 className="text-white uppercase ml-[100px] sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[800] font-serif">invited</h1>
+                <h1 className="text-white uppercase ml-[80px] sm:ml-[130px] z-20 text-[100px] sm:text-[200px] font-[800] font-serif">invited</h1>
                 <motion.h1 variants={titleVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative left-[90px] sm:left-[100px] text-[50px] sm:text-[50px] font-[600] font-serif">real ones 2nd anniversary</motion.h1>
                 <motion.h1 variants={dateVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative right-[10px] sm:right-[200px] z-10 text-[60px] sm:text-[120px] font-[600] font-serif ">Aug 20th</motion.h1>
                 <motion.h1 variants={doorsVariant} initial={"hidden"} whileInView={"visible"} viewport={{once:true}} className="text-white uppercase relative w-full sm:w-full left-[200px] sm:left-[300px] z-20 text-[40px] sm:text-[100px] font-[10]"> doors open 8</motion.h1>
