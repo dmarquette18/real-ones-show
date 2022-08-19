@@ -23,7 +23,7 @@ export function TicketCard(){
             y:30,
             scale:1.1,
             transition:{
-                type:'spring', duration: 3, bounce: 0.2, delay: 1
+                type:'spring', duration: 3, bounce: 0.2, delay: 1.75
             }
         }
     }
@@ -33,7 +33,7 @@ export function TicketCard(){
             opacity:"100%",
             transition:{
                 duration: 3,
-                delay: 1
+                delay: 1.75
             }
         }
     }
